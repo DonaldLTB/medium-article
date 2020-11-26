@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Lobster&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 30px;
+  line-height: 24px;
+  margin: 0;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 3em;
+}
+
+h2{
+  color: #A0A0A0;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+}
+
+.banner {
+  /*background-image: url("https://source.unsplash.com/random/1000x500");*/
+  background: linear-gradient(to right, #3204fdba, #9907facc), url(https://source.unsplash.com/random/1000x500) no-repeat top center;
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+  margin: 0;
+}
+
+.container {
+  text-align: left;
+  width: 600px;
+  margin: 50px auto;
+}
+
+.link {
+  font-family: "Lobster";
+  color: #7b8eed;
+}
+
+.link:hover {
+  background-color: #f2efef;
+}
+
+/* Media queries */
+@media(max-width: 1200px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 700px;
+  }
+}
